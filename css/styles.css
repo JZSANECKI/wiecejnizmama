@@ -1,0 +1,33 @@
+:root{
+    --main-bg-color: #EDE4DB; 
+    --main-text-color: #8B7E75;   
+}
+*{
+
+}
+body{
+margin: 0;
+padding: 0;
+background-color: var(--main-bg-color);
+}
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+}
+nav{
+   text-align: center; 
+   padding: 5rem 0;
+}
+nav a{
+color: var(--main-text-color);
+text-decoration: none;
+text-transform: uppercase;
+padding: 1rem ;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;
+}
+header{
+    min-height:1079px
+}
