@@ -1,6 +1,8 @@
 :root{
     --main-bg-color: #EDE4DB; 
     --main-text-color: #8B7E75;   
+    --main-body-color:#E3D0C2;
+    --main-footer-bg-color:#E5EBE7;
 }
 *{
 
@@ -8,26 +10,223 @@
 body{
 margin: 0;
 padding: 0;
-background-color: var(--main-bg-color);
+background-color: var(--main-body-color);
 }
 .container{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto 0 auto;
+
 }
 nav{
    text-align: center; 
-   padding: 5rem 0;
+   padding: 4rem 0;
+   background-color: var(--main-bg-color);
+}
+nav a, footer a, footer p{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem ;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-text-color);
 }
 nav a{
-color: var(--main-text-color);
-text-decoration: none;
-text-transform: uppercase;
-padding: 1rem ;
-font-family: 'Montserrat', sans-serif;
 font-weight: bold;
-font-size: 1.5rem;
+font-size: 1.4rem;
+}
+footer a{
+
+}
+.menu-logo{
+    width:10%;
 }
 header{
-    min-height:1079px
+background-color:var(--main-bg-color);
+overflow: hidden;
+}
+.spacer{
+    height:10vh;
+    position: relative;
+
+}
+.spacer img{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width:25%;
+    object-fit: cover;
+    height:25vw;
+    opacity: 0.8;
+}
+.main-header-desktop{
+display:flex;
+position: relative;
+
+}
+.main-header-desktop p{
+    font-family: 'Cormorant', serif;
+font-size: 3rem;
+max-width:600px;
+color:var(--main-text-color)
+}
+.hero-img{
+    display: block;
+    margin:0 auto;
+
+    width:70%;
+
+    object-fit: cover;
+    object-position:center;
+    border: solid white 10px;
+}
+.main-header-desktop-left,.main-header-desktop-right{
+    width:50%;
+}
+.hero-logo{
+padding:5rem 0 0 3rem; 
+max-width: 50%;
+}
+.bloop1, .bloop2,.bloop3,.bloop4,.bloop5{
+
+    position:absolute;
+}
+.bloop1{
+ width:20%;
+ top:10%;
+ left:-5%;
+}
+.bloop2{
+    width: 20%;
+bottom:-10%;
+left: 30%;
+}
+.bloop3{
+    width: 25%; 
+    right:-5%;  
+}
+.bloop4{
+left:30%;
+bottom:5%;
+width:30%;
+opacity: 0.5;
+}
+.bloop5{
+width: 20%;
+right:2%;
+top:calc(35vw + 3rem);
+}
+.about-section, .about-me-section{
+position:relative;
+background-color: #fff;
+padding:5rem 0 2rem 0 ;
+}
+.content-section{
+    position:relative;
+    background-color: #fff;
+    padding:0 0 2rem 0 ;   
+}
+.about-section h2, .about-me-section h2, .content-section h2{
+    font-family: 'Cormorant', serif;
+    font-size: 4rem;
+background-color: #fff;
+    color:var(--main-text-color);
+    font-weight: normal;  
+    padding: 5rem 0 0 5rem;
+    margin:0;
+    
+}
+.about-me-section h2{
+    padding: 5rem 0 0 15rem; 
+}
+.about-section p, .about-me-section p, .content-section p{
+    position: inherit;
+    max-width: 50%;
+    padding:0 0 5rem 5rem;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
+}
+.about-me-section p{
+    padding:0 0 0 15rem;  
+    max-width: 35%; 
+}
+.no-max-width{
+    max-width: 100%;
+}
+.about-img{
+    position: absolute;
+    top:5%;
+    right:5%;
+    width:30%;
+    margin:3rem 0;
+    border:solid var(--main-text-color) 3px;
+ 
+}
+.img-wrap{
+    float: right;
+    margin-left: 100px; 
+    margin-bottom:80px; 
+    width:40%;
+}
+.about-me-img{
+    position: absolute;
+    top:5%;
+    right:10%;
+    width:30%;
+    margin:3rem 0;
+    border:solid var(--main-text-color) 3px;
+ 
+}
+.apla{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    right:0;
+    top:0;
+    background-color: #FAF9F7;
+}
+footer{
+    padding:1rem 0 0 0;
+background-color:var(--main-footer-bg-color);
+height:100px;
+text-align: center;  
+}
+@media (max-width: 1200px){
+
+    .main-header-desktop p{
+        font-family: 'Cormorant', serif;
+    font-size: 2rem;
+padding:0 5rem 0 0
+    }
+nav a{
+    font-size: 1.1rem;
+}
+}
+
+
+@media (max-width: 992px){
+
+    .main-header-desktop p{
+        font-size: 1.8rem;   
+    }
+    nav a{
+        font-size: 0.8rem;
+        padding:0.6rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    .main-header-desktop p{
+        font-family: 'Cormorant', serif;
+    font-size: 1.5rem;
+padding:0 2rem 0 0
+    }
+    .hero-logo{
+        padding:3rem 0 0 3rem; 
+    }
+    nav a{
+        font-size: 0.6rem;
+    }
+
 }
