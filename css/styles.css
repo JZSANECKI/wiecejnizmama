@@ -235,8 +235,8 @@ header {
 .bloop3 {
   width: 25%;
   right: -5%;
-  top: 10%;
-  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
+  top: 0%;
+
 }
 .bloop4 {
   left: 30%;
@@ -245,9 +245,9 @@ header {
   opacity: 0.5;
 }
 .bloop5 {
-  width: 20%;
-  right: 2%;
-  top: calc(35vw + 3rem);
+  width: 15%;
+  
+ 
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
 }
 .about-section,
@@ -263,7 +263,7 @@ header {
 }
 .about-section h2,
 .about-me-section h2,
-.content-section h2 {
+.content-section h2,.article-section h2 {
   font-family: "Cormorant", serif;
   font-size: 4rem;
   background-color: #fff;
@@ -327,6 +327,68 @@ header {
   top: 0;
   background-color: #faf9f7;
 }
+.article-section{
+  background-color: #fff;
+ padding:0 0 2rem 0;
+ 
+
+}
+.article{
+  display: flex;
+  justify-content: center;
+}
+.article-content{
+
+  width:70%;
+
+}
+.article-img{
+  width:30%;
+}
+.article-content{
+  padding:0 0 0 10%;
+ 
+
+}
+.article-content h2{
+  padding: 2rem 0 0 0;
+}
+.article-content p{
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.article-img{
+  padding:3rem 0 0 0;
+ text-align: center;
+}
+.article-img img{
+  
+width:70%;
+object-fit: cover;
+aspect-ratio: 4/5;
+}
+.article-content-start{
+  max-height: 30vh;
+  overflow: hidden;
+  position: relative;
+}
+.article-content-end{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+text-align: right;
+color:var(--main-text-color);
+font-weight: bold;
+  position: absolute;
+  bottom:0;
+  height:80px;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+  z-index: 30;
+}
+
 footer {
   padding: 1rem 0 0 0;
   background-color: var(--main-footer-bg-color);
@@ -367,3 +429,5 @@ footer {
     font-size: 0.6rem;
   }
 }
+
+
