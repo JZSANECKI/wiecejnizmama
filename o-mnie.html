@@ -11,21 +11,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Więcej niż mama</title>
 </head>
 <body class="container">
     <nav>
-        <img class="menu-logo" src="./img/logo_color.svg" alt="">
-        <a href="">o projekcie</a>
-        <a href="">warsztaty</a>
-        <a href="">terapia wspierająca</a>
-        <a href="">o mnie</a>
-        <a href="">artykuły</a>
-        <a href="">kontakt</a>
-    </nav>
+        <div class="page-nav">
+        <a href="index.html"><img class="menu-logo" src="./img/logo_color.svg" alt=""></a>
+        <p id="menu-btn" >menu<span class="material-symbols-outlined">
+            menu
+            </span></p>
 
+    </div>
+    </nav>
+<div class="menu-page ">
+    <div class="menu-page-content container">
+    <p id="menu-close-btn" onclick="menuFn()">ZAMKNIJ</p>
+
+    <div class="kontakt">
+        <img style="max-width: 200px;" src="./img/logo_color.svg" alt="">
+        <p>tel.:  +48 600 32 58 59<br>
+            email: marlena.podbielkowska@gmail.com</p>
+    </div>
+    <div class="menu-page-nav">
+    <a href="index.html">strona główna</a><br>
+    <a href="index.html#projekt">o projekcie</a><br>
+    <a href="warsztaty.html">warsztaty</a><br>
+    <a href="">terapia wspierająca</a><br>
+    <a href="o-mnie.html">o mnie</a><br>
+    <a href="">artykuły</a>
+
+</div>
+</div>
+</div>
     <main>
 <section class="about-me-section" style="min-height:760px;">
     <h2>Kim jestem?</h2>
@@ -64,5 +85,6 @@
   
         <p>Więcej niż Mama tel.: +48 600 32 58 59, email: marlena.podbielkowska@gmail.com </p>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
