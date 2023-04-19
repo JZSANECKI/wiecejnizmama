@@ -136,6 +136,16 @@ transform: translateX(-50%);
   padding: 0 2rem 0 0;
   text-align: right;
 }
+.some-icon{
+width:2rem;
+padding:0.2rem 0 0.5rem 0;
+transition: opacity 300ms;
+}
+.some-icon:hover{
+  cursor: pointer;
+  opacity:0.6;
+  transition: opacity 300ms;
+}
 .menu-page-nav,
 .kontakt {
   width: 50vw;
