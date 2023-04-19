@@ -464,7 +464,7 @@ header {
 .media-content p{
   padding:0 0 0 2rem;
 }
-.media-content a{
+.media-content a,.about-me-section a{
   text-decoration: none;
   font-weight: bold;
   color: var(--main-link-color);
@@ -485,6 +485,13 @@ footer {
   background-color: var(--main-footer-bg-color);
   height: 100px;
   text-align: center;
+}
+.footer-icon{
+  padding:0 0.5rem 0 0;
+}
+.footer-icon:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 @media (max-width: 1200px) {
   .main-header-desktop a {
