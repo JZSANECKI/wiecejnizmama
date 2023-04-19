@@ -503,7 +503,7 @@ footer {
 }
 .warsztat-section{
   border-left: solid 5px var(--main-text-color);
-  margin:1rem 0 1rem 5rem;
+  margin:1rem 0 3rem 5rem;
 }
 .warsztat-section p{
 padding:0 0 0 2rem;
