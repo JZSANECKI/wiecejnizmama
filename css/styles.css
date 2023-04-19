@@ -49,6 +49,11 @@ footer p,
   padding: 1rem;
   font-family: "Montserrat", sans-serif;
   color: var(--main-text-color);
+  transition: color 300ms;
+}
+footer a:hover{
+  color:var(--main-body-color);
+  transition: color 300ms;
 }
 footer p {
   text-transform: none;
@@ -483,7 +488,6 @@ border: solid var(--main-text-color) 3px;
 footer {
   padding: 1rem 0 0 0;
   background-color: var(--main-footer-bg-color);
-  height: 100px;
   text-align: center;
 }
 .footer-icon{
@@ -492,6 +496,20 @@ footer {
 .footer-icon:hover{
   opacity: 0.5;
   cursor: pointer;
+}
+.warsztaty p{
+  max-width:none;
+  padding: 0 5rem 0 5rem;
+}
+.warsztat-section{
+  border-left: solid 5px var(--main-text-color);
+  margin:1rem 0 1rem 5rem;
+}
+.warsztat-section p{
+padding:0 0 0 2rem;
+}
+.warsztat-section strong{
+  color:var(--main-link-color)
 }
 @media (max-width: 1200px) {
   .main-header-desktop a {
