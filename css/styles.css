@@ -13,7 +13,7 @@ body {
   padding: 0;
   background-color: var(--main-body-color);
 }
-main{
+main {
   background-color: #fff;
 }
 .container {
@@ -36,7 +36,7 @@ main{
   background-color: var(--main-bg-color);
   margin: 0;
   z-index: 190;
-  height:60px;
+  height: 60px;
 }
 .home-nav a,
 footer a,
@@ -49,6 +49,9 @@ footer p,
   font-family: "Montserrat", sans-serif;
   color: var(--main-text-color);
 }
+footer p {
+  text-transform: none;
+}
 
 .home-nav a,
 .page-nav p,
@@ -57,15 +60,14 @@ footer p,
   font-weight: normal;
   font-size: 1.4rem;
 }
-.title{
-position: absolute;
-top:10px;
-padding: 0;
-left: 50%;
-transform: translateX(-50%);
-
+.title {
+  position: absolute;
+  top: 10px;
+  padding: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.title h1{
+.title h1 {
   font-family: "Cormorant", serif;
   font-size: 2rem;
   line-height: 0;
@@ -136,14 +138,14 @@ transform: translateX(-50%);
   padding: 0 2rem 0 0;
   text-align: right;
 }
-.some-icon{
-width:2rem;
-padding:0.2rem 0 0.5rem 0;
-transition: opacity 300ms;
+.some-icon {
+  width: 2rem;
+  padding: 0.2rem 0 0.5rem 0;
+  transition: opacity 300ms;
 }
-.some-icon:hover{
+.some-icon:hover {
   cursor: pointer;
-  opacity:0.6;
+  opacity: 0.6;
   transition: opacity 300ms;
 }
 .menu-page-nav,
@@ -204,8 +206,6 @@ transition: opacity 300ms;
 }
 
 #menu-btn {
-
-
   display: inline;
   cursor: pointer;
   transition: color 300ms;
@@ -395,7 +395,6 @@ header {
 }
 .article-img {
   width: 30%;
-
 }
 
 .article-content {
@@ -420,12 +419,12 @@ header {
 }
 .article-content-start {
   transition: max-height 300ms;
-  padding:0 0 3rem 0;
+  padding: 0 0 3rem 0;
   max-height: 20vh;
   overflow: hidden;
   position: relative;
 }
-.article-active{
+.article-active {
   transition: max-height 500ms;
   max-height: 300vh;
 }
@@ -457,7 +456,23 @@ header {
   font-size: 1.2rem;
   transition: font-size 300ms;
 }
-
+.media-section{
+  display:flex;
+  padding: 2rem 0 0 0;
+}
+.media-section p{
+  padding:0 0 0 2rem;
+}
+.media-img{
+padding:0 0 0 15rem;
+}
+.media-img img{
+width:7rem;
+object-fit: cover;
+aspect-ratio: 1;
+height:100%;
+border: solid var(--main-text-color) 3px;
+}
 footer {
   padding: 1rem 0 0 0;
   background-color: var(--main-footer-bg-color);
