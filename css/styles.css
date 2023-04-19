@@ -3,6 +3,7 @@
   --main-text-color: #8b7e75;
   --main-body-color: #e3d0c2;
   --main-footer-bg-color: #e5ebe7;
+  --main-link-color: #234E59;
   scroll-behavior: smooth;
 }
 * {
@@ -460,8 +461,14 @@ header {
   display:flex;
   padding: 2rem 0 0 0;
 }
-.media-section p{
+.media-content p{
   padding:0 0 0 2rem;
+}
+.media-content a{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--main-link-color);
+  cursor: pointer;
 }
 .media-img{
 padding:0 0 0 15rem;
