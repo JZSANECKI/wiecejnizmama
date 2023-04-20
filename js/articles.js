@@ -6,12 +6,12 @@ let moreFn =(e) =>{
 
   
     if(btn.innerHTML==="czytaj więcej..."){
-        article.classList.add("article-active")
+        article.style.maxHeight="100vh"
 
 btn.innerHTML = "zwiń"}
 else{
     btn.innerHTML = "czytaj więcej..."  
-    article.classList.remove("article-active") 
+    article.style.maxHeight="20vh"
 }
 
 }

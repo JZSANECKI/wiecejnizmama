@@ -424,7 +424,7 @@ header {
   border: solid var(--main-text-color) 3px;
 }
 .article-content-start {
-  transition: max-height 300ms;
+  transition: max-height 1000ms;
   padding: 0 0 3rem 0;
   max-height: 20vh;
   overflow: hidden;
