@@ -270,6 +270,9 @@ header {
 .main-header-desktop-right {
   width: 50%;
 }
+.main-header-desktop-left-link-block{
+display: none;
+}
 .main-header-desktop-right span {
   font-size: 2rem;
 }
@@ -561,6 +564,24 @@ footer {
   .main-header-desktop-left {
     height: 100svh;
     width: 100%;
+  }
+  .main-header-desktop-left-link-block{
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    max-width: 70%;
+  }
+  .main-header-desktop-left-link-block a{
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  .link-block{
+    display: inline-block;
+    background-color: #fff;
+    padding:0.5rem 1rem;
+    box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
+    border-right: solid 5px var(--main-body-color);
+ 
   }
   .main-header-desktop-right {
     display: none;
