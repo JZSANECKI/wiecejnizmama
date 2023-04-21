@@ -616,7 +616,6 @@ footer {
   }
   #menu-btn {
     padding: 0 1rem 0 0;
-
   }
   .about-section {
     padding: 0;
@@ -631,32 +630,31 @@ footer {
     padding: 0 0.5rem 2rem 0.5rem;
     margin: 0;
   }
-  .menu-page-nav{
+  .menu-page-nav {
     padding: 0;
   }
-  .menu-page-content{
+  .menu-page-content {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .menu-page-content a{
+  .menu-page-content a {
     font-size: 1rem;
     padding: 0;
   }
-  .kontakt{
+  .kontakt {
     text-align: center;
     width: 100%;
     padding: 2rem 0 0 0;
   }
-  .kontakt-logo{
-    
+  .kontakt-logo {
     width: 40%;
   }
-  .some-icon{
-    padding:2rem 0 0 0;
+  .some-icon {
+    padding: 2rem 0 0 0;
   }
-  #menu-close-btn{
+  #menu-close-btn {
     right: 1rem;
     /* font-size: 1rem; */
   }
