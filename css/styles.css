@@ -277,6 +277,9 @@ header {
   padding: 8rem 0 0 3rem;
   max-width: 50%;
 }
+.hero-logo-mobile{
+  display: none;
+}
 .bloop1,
 .bloop2,
 .bloop3,
@@ -312,6 +315,9 @@ header {
   width: 15%;
 
   filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
+}
+.bloop6{
+  display: none;
 }
 .about-section,
 .about-me-section {
@@ -553,7 +559,7 @@ footer {
     display: block;
   }
   .main-header-desktop-left{
-    height: calc(100dvh - 62px);
+    height: calc(100svh - 62px);
     width: 100%;
   }
   .main-header-desktop-right{
@@ -568,5 +574,37 @@ footer {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+  }
+  .about-img{
+    display: none;
+  }
+  .bloop1{
+width: 35%;
+z-index: 200;
+top:20%;
+  }
+  .bloop2{
+    width: 45%;
+   bottom:2%; 
+left:auto;
+   right: 2%;
+  }
+  .bloop6{
+    display: block;
+    position: absolute;
+    right: -15%;
+    width: 45%;
+    top:5%;
+  }
+  .hero-logo-mobile{
+    display: block;
+    width: 35%;
+    padding:0 0 0 2rem;
+  }
+  .home-nav{
+    width: 100%;
+  }
+  #menu-btn{
+   padding:0 1rem 0 0;
   }
 }
