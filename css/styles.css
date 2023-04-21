@@ -270,8 +270,8 @@ header {
 .main-header-desktop-right {
   width: 50%;
 }
-.main-header-desktop-left-link-block{
-display: none;
+.main-header-desktop-left-link-block {
+  display: none;
 }
 .main-header-desktop-right span {
   font-size: 2rem;
@@ -360,6 +360,9 @@ display: none;
   font-size: 1.3rem;
   font-family: "Montserrat", sans-serif;
   z-index: 10;
+}
+.content-section p {
+  max-width: 90%;
 }
 .about-me-section p {
   padding: 0 0 0 15rem;
@@ -565,26 +568,25 @@ footer {
     height: 100svh;
     width: 100%;
   }
-  .main-header-desktop-left-link-block{
+  .main-header-desktop-left-link-block {
     display: block;
     position: absolute;
     bottom: 25%;
     max-width: 70%;
   }
-  .main-header-desktop-left-link-block a{
+  .main-header-desktop-left-link-block a {
     font-size: 1.2rem;
     text-decoration: none;
   }
-  .main-header-desktop-left-link-block a:hover{
+  .main-header-desktop-left-link-block a:hover {
     color: var(--main-text-color);
   }
-  .link-block{
+  .link-block {
     display: inline-block;
     background-color: #fff;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
     box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
     border-right: solid 5px var(--main-body-color);
- 
   }
   .main-header-desktop-right {
     display: none;
@@ -654,6 +656,29 @@ footer {
     padding: 0 0.5rem 2rem 0.5rem;
     margin: 0;
   }
+  .content-section {
+    padding: 0;
+    margin: 0;
+  }
+  .content-section h2 {
+    padding: 2rem 0 1rem 0.5rem;
+    font-size: 2rem;
+  }
+  .content-section p {
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 1rem;
+
+    margin: 0;
+    max-width: none;
+  }
+  .img-wrap {
+    float: none;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border: none;
+    margin: 0;
+  }
   .menu-page-nav {
     padding: 0;
   }
@@ -682,26 +707,24 @@ footer {
     right: 1rem;
     /* font-size: 1rem; */
   }
-  footer a{
+  footer a {
     display: none;
-
   }
-  footer p{
+  footer p {
     margin: 0;
   }
-  footer{
-    padding:0;
+  footer {
+    padding: 0;
   }
-  .menu-logo{
-    left:2rem;
-
+  .menu-logo {
+    left: 2rem;
   }
-  .page-nav{
+  .page-nav {
     /* height: auto; */
     align-items: center;
   }
 
-  .page-nav h1{
+  .page-nav h1 {
     display: none;
   }
 }
