@@ -270,6 +270,9 @@ header {
 .main-header-desktop-right {
   width: 50%;
 }
+.main-header-desktop-right span{
+  font-size: 2rem
+}
 .hero-logo {
   padding: 8rem 0 0 3rem;
   max-width: 50%;
