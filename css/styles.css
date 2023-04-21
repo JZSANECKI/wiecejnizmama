@@ -559,7 +559,7 @@ footer {
     display: block;
   }
   .main-header-desktop-left{
-    height: calc(100svh - 62px);
+    height: 100svh;
     width: 100%;
   }
   .main-header-desktop-right{
@@ -580,7 +580,7 @@ footer {
   }
   .bloop1{
 width: 35%;
-z-index: 200;
+/* z-index: 19; */
 top:20%;
   }
   .bloop2{
@@ -594,15 +594,22 @@ left:auto;
     position: absolute;
     right: -15%;
     width: 45%;
-    top:5%;
+    top:10%;
   }
   .hero-logo-mobile{
     display: block;
-    width: 35%;
+    position: fixed;
+    transition: width 300ms;
+    width: 45%;
+    top:1rem;
     padding:0 0 0 2rem;
+    z-index: 300;
   }
   .home-nav{
     width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 20;
   }
   #menu-btn{
    padding:0 1rem 0 0;
