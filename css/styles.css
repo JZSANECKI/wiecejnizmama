@@ -270,6 +270,9 @@ header {
 .main-header-desktop-right {
   width: 50%;
 }
+.main-header-desktop-right span{
+  font-size: 2rem
+}
 .hero-logo {
   padding: 8rem 0 0 3rem;
   max-width: 50%;
@@ -543,4 +546,32 @@ padding:0 0 0 2rem;
   nav a {
     font-size: 0.6rem;
   }
+}
+
+@media (max-width: 576px){
+
+.home-nav{
+  padding:1rem 1rem 1rem 0;;
+}
+.hero-logo{
+  padding:2rem 0 0 0;
+}
+.main-header-desktop-right a, .main-header-desktop-right p,.main-header-desktop-right span{
+font-size: 1rem;
+line-height: 1;
+
+}
+.main-header-desktop-right p{
+  padding: 0 1rem 0 0;
+}
+.bloop2{
+bottom:0%;
+}
+.about-img{
+  top:-2%;
+}
+.spacer{
+  height:2vh;
+}
+
 }
