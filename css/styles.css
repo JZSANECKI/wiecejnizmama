@@ -618,7 +618,7 @@ footer {
     padding: 0 1rem 0 0;
   }
   .about-section {
-    padding: 0;
+    padding: 2rem 0 0 0;
   }
   .about-section h2 {
     padding: 2rem 1rem 0 0.5rem;
@@ -657,5 +657,15 @@ footer {
   #menu-close-btn {
     right: 1rem;
     /* font-size: 1rem; */
+  }
+  footer a{
+    display: none;
+
+  }
+  footer p{
+    margin: 0;
+  }
+  footer{
+    padding:0;
   }
 }
