@@ -692,4 +692,16 @@ footer {
   footer{
     padding:0;
   }
+  .menu-logo{
+    left:2rem;
+
+  }
+  .page-nav{
+    /* height: auto; */
+    align-items: center;
+  }
+
+  .page-nav h1{
+    display: none;
+  }
 }
