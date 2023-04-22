@@ -333,6 +333,17 @@ header {
   background-color: #fff;
   padding: 0 0 2rem 0;
 }
+h3{
+  font-family: "Cormorant", serif;
+  font-size: 2rem;
+  font-weight: bold;
+
+  border-left: solid 5px var(--main-text-color);
+  color: var(--main-text-color);
+
+  padding: 0 0 0 4rem;
+  margin: 2rem 0 0 1rem; 
+}
 .about-section h2,
 .about-me-section h2,
 .content-section h2,
@@ -363,6 +374,9 @@ header {
 }
 .content-section p {
   max-width: 90%;
+  padding: 0 0 2rem 0;
+  margin:1rem 5rem;
+  border-bottom: solid 1px var(--main-body-color);
 }
 .about-me-section p {
   padding: 0 0 0 15rem;
@@ -561,6 +575,12 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  h3{
+    margin:1rem 0 1rem 0;
+    font-size: 1.2rem;
+    padding: 0 0.5rem 0 0.5rem;
+    border-left-width:2px;
+  }
   .main-header-desktop {
     display: block;
   }
@@ -665,7 +685,7 @@ footer {
     font-size: 2rem;
   }
   .content-section p {
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem 2rem 0.5rem;
     font-size: 1rem;
 
     margin: 0;
