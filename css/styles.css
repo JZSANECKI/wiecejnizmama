@@ -333,6 +333,10 @@ header {
   background-color: #fff;
   padding: 0 0 2rem 0;
 }
+.about-me-section hr{
+  border-color: var(--main-body-color);
+
+}
 h3{
   font-family: "Cormorant", serif;
   font-size: 2rem;
@@ -667,19 +671,23 @@ footer {
 padding:0;
   }
   .about-me-section h2{
+    font-size: 2rem;
     padding: 0.5rem 2rem 0.5rem 0.5rem ;
+    
+  }
+  .about-me-title{
     border-right: solid 3px var(--main-body-color);
     box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
     position: absolute;
-    font-size: 2.5rem;
     top:5svh;
     z-index: 50;
+
   }
 
   .about-me-section p{
     margin:0;
 padding: 2rem 0.5rem 1rem 0.5rem;
-border-top: solid 1px var(--main-body-color);
+/* border-top: solid 1px var(--main-body-color); */
 max-width: 100%;
 font-size: 1rem;
   }
@@ -689,13 +697,34 @@ font-size: 1rem;
     top:50svh;
     transform: translateY(-60%);
   }
+  .about-me-section hr{
+border-color: var(--main-body-color);
+    margin: 0;
+  }
+  .media-section{
+    padding: 0 0 2rem 0;
+  }
+  .media-section p{
+    padding: 0 0 0.5rem 0.5rem;
+  }
+  .media-img{
+    padding:0;
+
+    margin-left: 0.5rem;
+    width: auto;
+ 
+  }
+  .media-img img{
+    width:5rem;
+    height: 5rem;
+  }
   .apla{
     position: relative;
     width: 33%;
     height: calc(100svh - 60px);
   }
   .bloop5{
-top:70svh;
+top:65svh;
 right: 5%;
 width: 30vw;
   }
