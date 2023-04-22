@@ -677,7 +677,7 @@ padding:0;
   }
   #about-me-title{
     border-right: solid 3px var(--main-body-color);
-    box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
+    box-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
     position: absolute;
     top:5svh;
     z-index: 50;
@@ -718,6 +718,7 @@ border-color: var(--main-body-color);
   .media-img img{
     width:5rem;
     height: 5rem;
+    border-width: 1px;
   }
   .apla{
     position: relative;
