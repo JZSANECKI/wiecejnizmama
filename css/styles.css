@@ -372,7 +372,7 @@ h3{
   font-family: "Montserrat", sans-serif;
   z-index: 10;
 }
-.content-section p {
+.bordered-section p {
   max-width: 90%;
   padding: 0 0 2rem 0;
   margin:1rem 5rem;
@@ -536,7 +536,7 @@ footer {
   margin: 1rem 0 3rem 5rem;
 }
 .warsztat-section p {
-  padding: 0 0 0 2rem;
+  padding: 0 2rem 0 2rem;
 }
 .warsztat-section strong {
   color: var(--main-link-color);
@@ -679,6 +679,7 @@ footer {
   .content-section {
     padding: 0;
     margin: 0;
+    background-color: #fff;
   }
   .content-section h2 {
     padding: 2rem 0 1rem 0.5rem;
@@ -690,6 +691,11 @@ footer {
 
     margin: 0;
     max-width: none;
+  }
+  .warsztat-section{
+    margin: 1rem 0 1rem 0;
+    border-width: 2px;
+
   }
   .img-wrap {
     float: none;
