@@ -663,6 +663,42 @@ footer {
   #menu-btn {
     padding: 0 1rem 0 0;
   }
+  .about-me-section{
+padding:0;
+  }
+  .about-me-section h2{
+    padding: 0.5rem 2rem 0.5rem 0.5rem ;
+    border-right: solid 3px var(--main-body-color);
+    box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
+    position: absolute;
+    font-size: 2.5rem;
+    top:10svh;
+    z-index: 50;
+  }
+
+  .about-me-section p{
+    margin:0;
+padding: 2rem 0.5rem 1rem 0.5rem;
+border-top: solid 1px var(--main-body-color);
+max-width: 100%;
+font-size: 1rem;
+  }
+  .about-me-img{
+    width:80%;
+    margin:0;
+    top:50svh;
+    transform: translateY(-60%);
+  }
+  .apla{
+    position: relative;
+    width: 33%;
+    height: calc(100svh - 60px);
+  }
+  .bloop5{
+top:70svh;
+right: 5%;
+width: 30vw;
+  }
   .about-section {
     padding: 2rem 0 0 0;
   }

@@ -4,10 +4,13 @@ let imgX = aboutImg.offsetLeft
 let imgY = aboutImg.offsetTop
 const imgH = aboutImg.offsetHeight
 let imgW = aboutImg.offsetWidth
+const windowWidth = window.innerWidth
 
 console.log(imgH)
 console.log(aboutImg)
 console.log(imgY)
 console.log(imgH+imgY)
+
+if(windowWidth > 576){
 bloop5.style.left=imgX+(imgW*0.75)+"px"
-bloop5.style.top=imgY+(imgH*0.75)+"px"
+bloop5.style.top=imgY+(imgH*0.75)+"px"}
