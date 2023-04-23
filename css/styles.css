@@ -794,6 +794,7 @@ z-index: 20;
   }
   .menu-page-nav {
     padding: 0;
+    width: 100%;
   }
   .menu-page-content {
     flex-direction: column-reverse;
