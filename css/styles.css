@@ -393,6 +393,13 @@ h3{
   padding: 0 0 0 15rem;
   max-width: 35%;
 }
+.about-me-section hr{
+  max-width: 80%;
+}
+.about-section strong{
+  color:var(--main-text-color)
+}
+
 .no-max-width {
   max-width: 100%;
 }
@@ -691,6 +698,7 @@ padding:0;
     top:5svh;
     z-index: 50;
     font-size: 2.5rem;
+
 
   }
 
