@@ -6,7 +6,7 @@ let moreFn =(e) =>{
 
   
     if(btn.innerHTML==="czytaj więcej..."){
-        article.style.maxHeight="100vh"
+        article.style.maxHeight="none"
 
 btn.innerHTML = "zwiń"}
 else{
