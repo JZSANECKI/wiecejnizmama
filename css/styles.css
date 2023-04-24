@@ -689,6 +689,17 @@ footer {
   .bloop4 {
     display: none;
   }
+  .bloop7{
+    z-index: 50;
+    right:0;
+    top:40vh;
+    width: 50%;
+    transform: translateX(30%);
+  }
+  .bloop8{
+    left:0.5rem;
+    width: 50%;
+  }
   .hero-logo-mobile {
     display: block;
     position: fixed;
