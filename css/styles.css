@@ -326,6 +326,22 @@ header {
 .bloop6 {
   display: none;
 }
+.bloop7{
+ position: absolute; 
+ right:30%;
+ transform: translateX(50%);
+ width: 25%;
+ top:30vw;
+
+}
+.bloop8{
+  position: absolute; 
+  bottom:2%;
+  left:5rem;
+  width: 30%;
+  opacity: 0.5;
+
+}
 .about-section,
 .about-me-section {
   position: relative;
@@ -346,11 +362,11 @@ h3{
   font-size: 2rem;
   font-weight: bold;
 
-  border-left: solid 5px var(--main-text-color);
+  
   color: var(--main-text-color);
 
   padding: 0 0 0 4rem;
-  margin: 2rem 0 0 1rem; 
+  margin: 2rem 0 0 0; 
 }
 .about-section h2,
 .about-me-section h2,
@@ -380,14 +396,22 @@ h3{
   font-family: "Montserrat", sans-serif;
   z-index: 10;
 }
+.bordered-section{
+  position: relative;
+  z-index: 2;
+
+}
 .bordered-section h3{
  margin:0.5rem;
 }
 .bordered-section p {
+  position: relative;
   max-width: 90%;
   padding: 0 0 2rem 0;
   margin:1rem 5rem;
-  border-bottom: solid 1px var(--main-body-color);
+  /* border-bottom: solid 1px var(--main-body-color); */
+
+  z-index: 0;
 }
 .about-me-section p {
   padding: 0 0 0 15rem;
@@ -792,6 +816,7 @@ z-index: 20;
     margin: 0;
     z-index: 50;
   }
+
   .menu-page-nav {
     padding: 0;
     width: 100%;
