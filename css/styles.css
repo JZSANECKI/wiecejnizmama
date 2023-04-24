@@ -9,6 +9,61 @@
 * {
   /* background-color: rgba(255, 0, 0, 0.103); */
 }
+.popup-canva-none{
+  display:none;
+}
+.popup-canva{
+  position: fixed;
+height:100vh;
+width: 100vw;
+backdrop-filter: blur(5px);
+background-color: rgba(255, 255, 255, 0.226);
+z-index: 1000;
+
+}
+.popup{
+  position: fixed;
+
+padding:2rem;
+  background-color: white;
+  border:solid 2px var(--main-body-color);
+  border-radius: 10px;
+  top:50vh;
+  left:50vw;
+  transform: translate(-50%, -50%);
+text-align: center;
+filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
+
+}
+.close-popup{
+  position: absolute;
+  right:2rem;
+  top:1rem;
+  color: var(--main-link-color);
+}
+.close-popup:hover{
+  cursor: pointer;
+}
+.popup h2{
+  font-family: "Cormorant", serif;
+  font-size: 2rem;
+
+  color: var(--main-text-color);
+
+
+  margin: 0;  
+}
+
+.popup p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+
+}
+.popup a{
+  text-decoration: none;
+  color: var(--main-link-color);
+  font-weight: bold;
+}
 hr{
   position: relative;
   z-index: 0;
@@ -596,6 +651,13 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
 @media (max-width: 992px) {
   .main-header-desktop a {
     font-size: 1.8rem;
@@ -605,6 +667,12 @@ footer {
     padding: 0.6rem;
   }
 }
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .main-header-desktop a {
@@ -618,12 +686,25 @@ footer {
     font-size: 0.6rem;
   }
 }
+
+
+
+
+
+
+
 @media (max-width: 576px) {
   h3{
     margin:1rem 0 1rem 0;
     font-size: 1.2rem;
     padding: 0 0.5rem 0 0.5rem;
     border-left-width:2px;
+  }
+  .popup{
+    margin:1rem;
+    transform: translate(0,-50%);
+    left:0;
+ 
   }
   .main-header-desktop {
     display: block;
