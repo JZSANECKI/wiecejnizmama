@@ -329,9 +329,33 @@ header {
 .main-header-desktop-right {
   width: 50%;
 }
+
 .main-header-desktop-left-link-block {
-  display: none;
+  display: block;
+  position: absolute;
+  bottom: 25%;
+  right:0;
+  max-width: 50%;
+  text-align: right;
+ 
 }
+.main-header-desktop-left-link-block a {
+  font-size: 3rem;
+  text-decoration: none;
+  padding:0 0rem 0 0;
+}
+.main-header-desktop-left-link-block a:hover {
+  color:var(--main-link-color);
+}
+.link-block {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1rem 5rem 1rem 2rem;
+  box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
+  border-left: solid 5px var(--main-body-color);
+}
+
+
 .main-header-desktop-right span {
   font-size: 2rem;
 }
@@ -640,6 +664,20 @@ footer {
 .warsztat-section strong {
   color: var(--main-link-color);
 }
+
+@media (max-width: 1400px){
+  .main-header-desktop-left-link-block{
+    bottom:0;
+    max-width: 60%;
+    z-index: 50;
+  }
+  .main-header-desktop-left-link-block a{
+    font-size: 2.5rem;
+  }
+}
+
+
+
 @media (max-width: 1200px) {
   .main-header-desktop a {
     font-family: "Cormorant", serif;
@@ -649,6 +687,7 @@ footer {
   nav a {
     font-size: 1.1rem;
   }
+
 }
 
 
@@ -683,6 +722,30 @@ footer {
   }
   .media-img{
     padding: 0 0 0 5rem;
+  }
+  .main-header-desktop-left-link-block {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    right:0;
+ 
+    text-align: right;
+   
+  }
+  .main-header-desktop-left-link-block a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding:0 0rem 0 0;
+  }
+  .main-header-desktop-left-link-block a:hover {
+    color:var(--main-link-color);
+  }
+  .link-block {
+    display: inline-block;
+    background-color: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+    box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
+    border-left: solid 5px var(--main-body-color);
   }
 }
 
@@ -735,7 +798,10 @@ footer {
     display: block;
     position: absolute;
     bottom: 25%;
-    max-width: 70%;
+    left:0;
+    max-width: 90%;
+    z-index: 2;
+    text-align: left;
   }
   .main-header-desktop-left-link-block a {
     font-size: 1.2rem;
@@ -750,6 +816,7 @@ footer {
     padding: 0.5rem 1rem;
     box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
     border-right: solid 5px var(--main-body-color);
+    border-left:none;
   }
   .main-header-desktop-right {
     display: none;
