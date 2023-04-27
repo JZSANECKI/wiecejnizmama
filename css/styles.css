@@ -9,62 +9,58 @@
 * {
   /* background-color: rgba(255, 0, 0, 0.103); */
 }
-.popup-canva-none{
-  display:none;
+.popup-canva-none {
+  display: none;
 }
-.popup-canva{
+.popup-canva {
   position: fixed;
-height:100vh;
-width: 100vw;
-backdrop-filter: blur(5px);
-background-color: rgba(255, 255, 255, 0.226);
-z-index: 1000;
-
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.226);
+  z-index: 1000;
 }
-.popup{
+.popup {
   position: fixed;
 
-padding:2rem;
+  padding: 2rem;
   background-color: white;
-  border:solid 2px var(--main-body-color);
+  border: solid 2px var(--main-body-color);
   border-radius: 10px;
-  top:50vh;
-  left:50vw;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
-text-align: center;
-filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
-
+  text-align: center;
+  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
 }
-.close-popup{
+.close-popup {
   position: absolute;
-  right:2rem;
-  top:1rem;
+  right: 2rem;
+  top: 1rem;
   color: var(--main-link-color);
 }
-.close-popup:hover{
+.close-popup:hover {
   cursor: pointer;
 }
-.popup h2{
+.popup h2 {
   font-family: "Cormorant", serif;
   font-size: 2rem;
 
   color: var(--main-text-color);
 
-
-  margin: 0;  
+  margin: 0;
 }
 
-.popup p{
+.popup p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-
 }
-.popup a{
+.popup a {
   text-decoration: none;
   color: var(--main-link-color);
   font-weight: bold;
 }
-hr{
+hr {
   position: relative;
   z-index: 0;
 }
@@ -333,19 +329,19 @@ header {
 .main-header-desktop-left-link-block {
   display: block;
   position: absolute;
-  bottom: 25%;
-  right:0;
-  max-width: 50%;
+  bottom: 10%;
+  right: 0;
+  max-width: 60%;
   text-align: right;
- 
+  z-index: 50;
 }
 .main-header-desktop-left-link-block a {
   font-size: 3rem;
   text-decoration: none;
-  padding:0 0rem 0 0;
+  padding: 0 0rem 0 0;
 }
 .main-header-desktop-left-link-block a:hover {
-  color:var(--main-link-color);
+  color: var(--main-link-color);
 }
 .link-block {
   display: inline-block;
@@ -354,7 +350,6 @@ header {
   box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
   border-left: solid 5px var(--main-body-color);
 }
-
 
 .main-header-desktop-right span {
   font-size: 2rem;
@@ -405,21 +400,19 @@ header {
 .bloop6 {
   display: none;
 }
-.bloop7{
- position: absolute; 
- right:30%;
- transform: translateX(50%);
- width: 25%;
- top:30vw;
-
+.bloop7 {
+  position: absolute;
+  right: 30%;
+  transform: translateX(50%);
+  width: 25%;
+  top: 30vw;
 }
-.bloop8{
-  position: absolute; 
-  bottom:2%;
-  left:5rem;
+.bloop8 {
+  position: absolute;
+  bottom: 2%;
+  left: 5rem;
   width: 30%;
   opacity: 0.5;
-
 }
 .about-section,
 .about-me-section {
@@ -432,20 +425,18 @@ header {
   background-color: #fff;
   padding: 0 0 2rem 0;
 }
-.about-me-section hr{
+.about-me-section hr {
   border-color: var(--main-body-color);
-
 }
-h3{
+h3 {
   font-family: "Cormorant", serif;
   font-size: 2rem;
   font-weight: bold;
 
-  
   color: var(--main-text-color);
 
   padding: 0 0 0 4rem;
-  margin: 2rem 0 0 0; 
+  margin: 2rem 0 0 0;
 }
 .about-section h2,
 .about-me-section h2,
@@ -475,19 +466,18 @@ h3{
   font-family: "Montserrat", sans-serif;
   z-index: 10;
 }
-.bordered-section{
+.bordered-section {
   position: relative;
   z-index: 2;
-
 }
-.bordered-section h3{
- margin:0.5rem;
+.bordered-section h3 {
+  margin: 0.5rem;
 }
 .bordered-section p {
   position: relative;
   max-width: 90%;
   padding: 0 0 2rem 0;
-  margin:1rem 5rem;
+  margin: 1rem 5rem;
   /* border-bottom: solid 1px var(--main-body-color); */
 
   z-index: 0;
@@ -496,11 +486,11 @@ h3{
   padding: 0 0 0 15rem;
   max-width: 35%;
 }
-.about-me-section hr{
+.about-me-section hr {
   max-width: 80%;
 }
-.about-section strong{
-  color:var(--main-text-color)
+.about-section strong {
+  color: var(--main-text-color);
 }
 
 .no-max-width {
@@ -665,18 +655,16 @@ footer {
   color: var(--main-link-color);
 }
 
-@media (max-width: 1400px){
-  .main-header-desktop-left-link-block{
-    bottom:0;
+@media (max-width: 1400px) {
+  .main-header-desktop-left-link-block {
+    bottom: 10%;
     max-width: 60%;
     z-index: 50;
   }
-  .main-header-desktop-left-link-block a{
+  .main-header-desktop-left-link-block a {
     font-size: 2.5rem;
   }
 }
-
-
 
 @media (max-width: 1200px) {
   .main-header-desktop a {
@@ -687,15 +675,7 @@ footer {
   nav a {
     font-size: 1.1rem;
   }
-
 }
-
-
-
-
-
-
-
 
 @media (max-width: 992px) {
   .main-header-desktop a {
@@ -705,40 +685,39 @@ footer {
     font-size: 0.8rem;
     padding: 0.6rem;
   }
-  .about-section h2{
+  .about-section h2 {
     max-width: 50%;
   }
-  .about-me-section h2{
+  .about-me-section h2 {
     padding: 0rem 0 0 5rem;
   }
-  .about-me-section p{
+  .about-me-section p {
     position: relative;
     padding: 0rem 5rem 0 5rem;
     max-width: 45%;
     z-index: 50;
   }
-  .about-me-img{
-    top:1%;
+  .about-me-img {
+    top: 1%;
   }
-  .media-img{
+  .media-img {
     padding: 0 0 0 5rem;
   }
   .main-header-desktop-left-link-block {
     display: block;
     position: absolute;
-    bottom: 0%;
-    right:0;
- 
+    bottom: 10%;
+    right: 0;
+
     text-align: right;
-   
   }
   .main-header-desktop-left-link-block a {
     font-size: 1.5rem;
     text-decoration: none;
-    padding:0 0rem 0 0;
+    padding: 0 0rem 0 0;
   }
   .main-header-desktop-left-link-block a:hover {
-    color:var(--main-link-color);
+    color: var(--main-link-color);
   }
   .link-block {
     display: inline-block;
@@ -747,13 +726,10 @@ footer {
     box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
     border-left: solid 5px var(--main-body-color);
   }
+  .hero-logo {
+    padding: 5rem 0 0 5rem;
+  }
 }
-
-
-
-
-
-
 
 @media (max-width: 768px) {
   .main-header-desktop a {
@@ -766,26 +742,35 @@ footer {
   nav a {
     font-size: 0.6rem;
   }
+  .main-header-desktop-left-link-block {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+
+    text-align: right;
+  }
+  .main-header-desktop-left-link-block a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0 0rem 0 0;
+  }
+  .main-header-desktop-left-link-block a:hover {
+    color: var(--main-link-color);
+  }
 }
 
-
-
-
-
-
-
 @media (max-width: 576px) {
-  h3{
-    margin:1rem 0 1rem 0;
+  h3 {
+    margin: 1rem 0 1rem 0;
     font-size: 1.2rem;
     padding: 0 0.5rem 0 0.5rem;
-    border-left-width:2px;
+    border-left-width: 2px;
   }
-  .popup{
-    margin:1rem;
-    transform: translate(0,-50%);
-    left:0;
- 
+  .popup {
+    margin: 1rem;
+    transform: translate(0, -50%);
+    left: 0;
   }
   .main-header-desktop {
     display: block;
@@ -798,7 +783,7 @@ footer {
     display: block;
     position: absolute;
     bottom: 25%;
-    left:0;
+    left: 0;
     max-width: 90%;
     z-index: 2;
     text-align: left;
@@ -816,7 +801,7 @@ footer {
     padding: 0.5rem 1rem;
     box-shadow: 3px 5px 5px rgb(0 0 0 / 0.2);
     border-right: solid 5px var(--main-body-color);
-    border-left:none;
+    border-left: none;
   }
   .main-header-desktop-right {
     display: none;
@@ -855,15 +840,15 @@ footer {
   .bloop4 {
     display: none;
   }
-  .bloop7{
+  .bloop7 {
     z-index: 50;
-    right:0;
-    top:40vh;
+    right: 0;
+    top: 40vh;
     width: 50%;
     transform: translateX(30%);
   }
-  .bloop8{
-    left:0.5rem;
+  .bloop8 {
+    left: 0.5rem;
     width: 50%;
   }
   .hero-logo-mobile {
@@ -884,70 +869,66 @@ footer {
   #menu-btn {
     padding: 0 1rem 0 0;
   }
-  .about-me-section{
-padding:0;
+  .about-me-section {
+    padding: 0;
   }
-  .about-me-section h2{
+  .about-me-section h2 {
     font-size: 2rem;
-    padding: 0.5rem 2rem 0.5rem 0.5rem ;
-    
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
   }
-  #about-me-title{
+  #about-me-title {
     border-right: solid 3px var(--main-body-color);
     box-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
     position: absolute;
-    top:5svh;
+    top: 5svh;
     z-index: 50;
     font-size: 2.5rem;
-
-
   }
 
-  .about-me-section p{
-    margin:0;
-padding: 2rem 0.5rem 1rem 0.5rem;
-/* border-top: solid 1px var(--main-body-color); */
-max-width: 100%;
-font-size: 1rem;
+  .about-me-section p {
+    margin: 0;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    /* border-top: solid 1px var(--main-body-color); */
+    max-width: 100%;
+    font-size: 1rem;
   }
-  .about-me-img{
-    width:80%;
-    margin:0;
-    top:50svh;
+  .about-me-img {
+    width: 80%;
+    margin: 0;
+    top: 50svh;
     transform: translateY(-60%);
   }
-  .about-me-section hr{
-border-color: var(--main-body-color);
+  .about-me-section hr {
+    border-color: var(--main-body-color);
     margin: 0;
   }
-  .media-section{
+  .media-section {
     padding: 0 0 2rem 0;
   }
-  .media-section p{
+  .media-section p {
     padding: 0 0 0.5rem 0.5rem;
   }
-  .media-img{
-    padding:0;
+  .media-img {
+    padding: 0;
 
     margin-left: 0.5rem;
     width: auto;
- 
   }
-  .media-img img{
-    width:5rem;
+  .media-img img {
+    width: 5rem;
     height: 5rem;
     border-width: 1px;
   }
-  .apla{
+  .apla {
     position: relative;
     width: 33%;
     height: calc(100svh - 60px);
   }
-  .bloop5{
-top:65svh;
-right: 5%;
-width: 30vw;
-z-index: 20;
+  .bloop5 {
+    top: 65svh;
+    right: 5%;
+    width: 30vw;
+    z-index: 20;
   }
   .about-section {
     padding: 2rem 0 0 0;
@@ -978,10 +959,9 @@ z-index: 20;
     margin: 0;
     max-width: none;
   }
-  .warsztat-section{
+  .warsztat-section {
     margin: 1rem 0 1rem 0.5rem;
     border-width: 2px;
-
   }
   .img-wrap {
     position: relative;
@@ -1008,43 +988,40 @@ z-index: 20;
     font-size: 1rem;
     padding: 0;
   }
-  .article{
+  .article {
     flex-direction: column-reverse;
   }
-  .article-img{
-    width:100%;
- padding: 0;
-    margin:0;
+  .article-img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
-  .article-img img{
+  .article-img img {
     width: 100%;
     aspect-ratio: 4/2;
-    border:none;
+    border: none;
   }
-  .article-content{
+  .article-content {
     position: relative;
-    padding:0 ;
+    padding: 0;
     width: 100vw;
   }
-  .article-content h2{
+  .article-content h2 {
     border-right: solid 3px var(--main-body-color);
     box-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
     position: absolute;
-transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 50;
     font-size: 2rem;
-    padding:0.5rem 1rem 0.5rem 1rem; 
+    padding: 0.5rem 1rem 0.5rem 1rem;
     max-width: 80%;
   }
-  .article-content-start p{
+  .article-content-start p {
     padding: 2rem 0.5rem 0.5rem 0.5rem;
   }
-  .article-section{
-    
+  .article-section {
   }
-  .article-section h2{
-
-
+  .article-section h2 {
   }
   .kontakt {
     text-align: center;
