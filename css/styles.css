@@ -98,7 +98,8 @@ main {
 footer a,
 footer p,
 .page-nav p,
-.menu-page-nav a {
+.menu-page-nav a,
+.content-section a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 1rem;
@@ -645,7 +646,7 @@ footer {
   padding: 0 5rem 0 5rem;
 }
 .warsztat-section {
-  border-left: solid 5px var(--main-text-color);
+  border-left: solid 5px var(--main-body-color);
   margin: 1rem 0 3rem 5rem;
 }
 .warsztat-section p {
@@ -653,6 +654,22 @@ footer {
 }
 .warsztat-section strong {
   color: var(--main-link-color);
+}
+.content-section a {
+  position: relative;
+  color: #234e59;
+
+  padding: 1rem 2rem;
+
+  border-right: solid 5px var(--main-body-color);
+  background-color: #fff;
+  filter: drop-shadow(3px 5px 5px rgb(0 0 0 / 0.2));
+  text-align: center;
+  z-index: 50;
+}
+.content-section a:hover {
+  color: var(--main-body-color);
+  cursor: pointer;
 }
 
 @media (max-width: 1400px) {
@@ -958,6 +975,10 @@ footer {
 
     margin: 0;
     max-width: none;
+  }
+  .content-section a {
+    font-size: 0.8rem;
+    padding: auto;
   }
   .warsztat-section {
     margin: 1rem 0 1rem 0.5rem;
