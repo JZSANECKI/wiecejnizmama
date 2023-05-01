@@ -488,6 +488,7 @@ h3 {
 .about-me-section p {
   padding: 0 0 0 15rem;
   max-width: 35%;
+  z-index: 50;
 }
 .about-me-section hr {
   max-width: 80%;
@@ -557,6 +558,7 @@ h3 {
 .article-content p {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
+  text-align: justify;
 }
 .article-img {
   padding: 3rem 0 0 0;
